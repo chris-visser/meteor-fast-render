@@ -2,17 +2,17 @@
 Package.describe({
 	summary:
 		'Render your app before the DDP connection even comes alive - magic?',
-	version: '3.2.0',
-	git: 'https://github.com/abecks/meteor-fast-render',
-	name: 'staringatlights:fast-render',
+	version: '3.2.1',
+	git: 'https://github.com/chris-visser/meteor-fast-render',
+	name: 'cloudspider:fast-render',
 })
 
 Npm.depends({
-	connect: '2.13.0',
+	"cookie-parser": '1.4.4',
 })
 
 Package.onUse(function(api) {
-	api.versionsFrom('METEOR@1.6.1')
+	api.versionsFrom('METEOR@1.10.2')
 	api.mainModule('lib/client/fast_render.js', 'client')
 	api.mainModule('lib/server/namespace.js', 'server')
 	api.use('staringatlights:inject-data@2.3.0', ['client', 'server'])

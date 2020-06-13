@@ -1,5 +1,5 @@
 /* global Tinytest */
-import { FastRender } from 'meteor/staringatlights:fast-render'
+import { FastRender } from 'meteor/cloudspider:fast-render'
 import { Random } from 'meteor/random'
 import { Meteor } from 'meteor/meteor'
 import { Mongo } from 'meteor/mongo'

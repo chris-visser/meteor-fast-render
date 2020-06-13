@@ -93,7 +93,7 @@ Check this demo [video](https://www.youtube.com/watch?v=mGcE6UVOqPk) if you need
 Add Fast Render to your Meteor app:
 
 ```shell
-meteor add staringatlights:fast-render
+meteor add cloudspider:fast-render
 ```
 
 After that, make sure you've moved your route related code (`router.js` file or relavant files) to a place which can be access by both server and client. (i.e. the `lib` folder).

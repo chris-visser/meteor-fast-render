@@ -1,5 +1,5 @@
 /* global Tinytest */
-import { FastRender } from 'meteor/staringatlights:fast-render'
+import { FastRender } from 'meteor/cloudspider:fast-render'
 
 Tinytest.add('AddedToChanged - new fields', function(test) {
 	var localCopy = { aa: 10 }

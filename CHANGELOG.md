@@ -57,7 +57,7 @@
 
 ### v2.16
 
-- Releasing as `staringatlights:fast-render`
+- Releasing as `cloudspider:fast-render`
 
 ### v2.14.0
 
